@@ -10,7 +10,7 @@ class List extends React.Component{
     constructor(props){
         super(props);
         this.update = this.update.bind(this);
-        if (localStorage.length === 0){
+        if (localStorage.getItem('values') === null){
             localStorage.setItem('values', JSON.stringify([{
                 id:0,
                 value: 'Open TODO list',
