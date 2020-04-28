@@ -1,0 +1,17 @@
+.myList{
+    margin: 0px auto;
+    background-color: white;
+    width: 30vw;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+.items{
+    color: black;
+}
+
+.items__done{
+    color: grey;
+    text-decoration: line-through;
+}
